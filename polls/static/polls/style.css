@@ -16,7 +16,11 @@ ul {
     padding: auto;
 }
 
+.body_div {
+    padding: 10%;
+}
+
 body {
     background: white url("images/backgrounds.jpg") no-repeat;
-    padding: 10%;
+
 }
