@@ -55,7 +55,7 @@ def vote(request, question_id):
     except (KeyError, Choice.DoesNotExist):
         # Redisplay the question voting form.
         return render(request, 'polls/detail.html', {
-            'question': question,
+            'questions': question,
             'error_message': "You didn't select a choice.",
         })
     else:
